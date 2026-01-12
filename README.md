@@ -15,6 +15,13 @@ This project uses historical labeled transaction data to:
 - Train a **RandomForestClassifier** to detect anomalies effectively  
 - Evaluate classification performance using common fraud‑detection metrics  
 
+## Goals
+
+- Data Loading & Exploration (inspect distributions, correlations, and imbalance)
+- Preprocessing (handle scaling, feature selection, and preparation for tree‑based models)
+- Model Training (train a RandomForestClassifier - the primary model used)
+- Evaluation (Accuracy, Precision/Recall, Confusion Matrix, ROC-AUC)
+
 ---
 
 ## Requirements
